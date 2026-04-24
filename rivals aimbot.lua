@@ -8,7 +8,7 @@ local Camera = workspace.CurrentCamera
 -- Settings
 local Settings = {
     AimbotEnabled = false,
-    FOV = 350,
+    FOV = 650,
     AimbotKey = Enum.UserInputType.MouseButton2,
     HeadOffset = Vector3.new(0,0.5,0),
     MaxDistance = 500,
