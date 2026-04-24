@@ -195,7 +195,7 @@ UserInputService.InputBegan:Connect(function(i,g)
     if g then return end
     if i.KeyCode == Enum.KeyCode.X then
         Settings.AimbotEnabled = not Settings.AimbotEnabled
-        ToggleLabel.Text = "Aimbot: "..(Settings.AimbotEnabled and "ON" or "OFF").." (Hold RMB | Press 'L')"
+        ToggleLabel.Text = "Aimbot: "..(Settings.AimbotEnabled and "ON" or "OFF").." (Hold RMB | Press 'X')"
     end
 end)
 
